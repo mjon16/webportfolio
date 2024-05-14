@@ -1,18 +1,66 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+	
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: Poppins, sans-serif;
+	left-style: none;
+	text-decoration: none;
 }
 
-#prof-pic {
-	height: 40vh;
-	width: 100%;
+html {
+	scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+#main-nav {
+	background-color: #E5ECBF;
+	color: #E5ECBF;
+}
+
+/*section {
+	height: 100vh;
+}*/
+
+#home {
+    background: url('./images/self.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.custom-col {
+	margin-top: 25%;
+}
+
+i {
+	color: black;
+}
+
+.portfolio-image {
+	filter: grayscale(1);
+}
+.img-hero {
+	height: auto;
+}
+
+.spacing {
+	margin-top: 10%;
 }
 
 
-#gmap {
-	height: 60vh;
-	width: 100%;
-	border: 0;
+#projects {
+    background-color: #E5ECBF;
 }
+
+#contacts {
+	background-color: #E5ECBF;
+}
+
+.footer {
+    height: 50px; 
+    background-color: #E5ECBF;
+}
+
+
