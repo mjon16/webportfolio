@@ -54,8 +54,18 @@ i {
     background-color: #E5ECBF;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 50%;
+}
+
 #contacts {
 	background-color: #E5ECBF;
+}
+
+.map-frame {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
 }
 
 .footer {
