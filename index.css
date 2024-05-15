@@ -54,6 +54,10 @@ i {
     background-color: #E5ECBF;
 }
 
+.card {
+  height: 800px; 
+}
+
 .card-img-top {
   width: 100%;
   height: 50%;
@@ -74,3 +78,28 @@ i {
 }
 
 
+/* Default font size */
+.card-text {
+  font-size: 16px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 576px) {
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .card-text {
+    font-size: 16px;
+  }
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 768px) {
+  .card-text {
+    font-size: 16px;
+  }
+}
